@@ -9,12 +9,15 @@ set autochdir
 set number
 hi ModeMsg ctermfg=Green
 
-let Tlist_Ctags_Cmd = '/usr/bin/ctags'
-let Tlist_Auto_Open = 0
-let Tlist_Exit_OnlyWindow = 1
-let Tlist_Use_Lift_Window = 1
-let Tlist_WinWindth = 25
-let Tlist_Use_DoubleClick = 1
+let Tlist_Ctags_Cmd='/usr/bin/ctags'
+let Tlist_Auto_Open=0
+let Tlist_Exit_OnlyWindow=1
+let Tlist_Use_Lift_Window=1
+let Tlist_WinWindth=25
+let Tlist_Use_DoubleClick=1
 map <F9> :TlistToggle<CR>
 map <F11> :resize-1<CR>
 map <F12> :resize+1<CR>
+
+" set tags=/root/b/tags
+" set tags+=/root/a/tags
