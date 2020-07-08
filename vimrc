@@ -21,3 +21,8 @@ map <F12> :resize+1<CR>
 
 " set tags=/root/b/tags
 " set tags+=/root/a/tags
+
+"" ----------------------------------------------- winManager 配置
+"" 'FileExplorer|TagList' 之间不能有空格
+let g:winManagerWindowLayout = 'FileExplorer|TagList'
+map <F10> :WMToggle<CR>
